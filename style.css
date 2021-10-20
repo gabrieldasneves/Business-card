@@ -33,14 +33,7 @@ h1{
     margin-top: 1.5rem;
     font-size: 1.5rem;
 }
-a{
-    margin-top: .25rem;
-    color: hsl(240,9%,89%);
-    text-decoration: none;
-    gap: .75rem;
-    justify-content: center;
-    align-items: center;
-}
+
 p{
     margin-top: 2rem;
 }
