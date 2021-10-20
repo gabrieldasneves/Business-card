@@ -1,6 +1,8 @@
  /*css*/
  html, body{
     height: 100%;
+    font-family: 'Robot',  sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 body{
@@ -17,11 +19,36 @@ main{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: hsl(240,9%,89%);
+}
+.avatar{
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    margin: 11.5rem auto 0;
+    position: relative;
 }
 h1{
+    margin-top: 1.5rem;
     font-size: 1.5rem;
 }
 a{
-    color: rgb(20, 14, 14);
+    margin-top: .25rem;
+    color: hsl(240,9%,89%);
     text-decoration: none;
+    gap: .75rem;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 2rem;
+}
+ul{
+    margin-top: 3rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
 }
