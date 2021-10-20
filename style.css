@@ -1,0 +1,27 @@
+ /*css*/
+ html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+main{
+    background:url(images/background.png);
+    width: 375px;
+    height: 812px;
+}
+.container {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    font-size: 1.5rem;
+}
+a{
+    color: rgb(20, 14, 14);
+    text-decoration: none;
+}
