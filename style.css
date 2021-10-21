@@ -1,12 +1,16 @@
  /*css*/
+*{
+    margin: 0;    /*global*/
+}
+
  html, body{
     height: 100%;
     font-family: 'Robot',  sans-serif;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;   /*webkit é para funcionar tambem em outros browsers*/
 }
 
 body{
-    display: grid;
+    display: grid;   /*parte em duas caixas*/
     place-items: center;
 }
 main{
@@ -25,7 +29,7 @@ main{
     width: 10rem;
     height: 11.5rem;
     object-fit: cover;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);  /*aquilo que está dentro aparece e oque fica de fora é cortado*/
     margin: 11.5rem auto 0;
     position: relative;
 }
@@ -41,7 +45,7 @@ ul{
     margin-top: 3rem;
     list-style: none;
     padding: 0;
-    display: flex;
+    display: flex;  /* deixa as coisas uma do lado da outra*/
     gap: .5rem;
     justify-content: center;
 }
