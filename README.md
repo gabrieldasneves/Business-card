@@ -1,7 +1,7 @@
 # Business card
 
-<img src="previewDesktop.png" alt="example project">
-<img src="previewMobile.png" alt="example project">
+<img src="./images/previewDesktop.png" alt="example project">
+<img src="/images/previewMobile.png" alt="example project">
 
 > Exclusive badge created on NLW Heat from RocketSeat. The badge contains information about the person it is wearing.
 ## 💻 Prerequisites
