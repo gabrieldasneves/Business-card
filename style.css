@@ -1,4 +1,5 @@
         /*css*/
+
         *{
             margin: 0;    /*global*/
             padding: 0;
@@ -38,6 +39,7 @@
             clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);  /*aquilo que está dentro aparece e oque fica de fora é cortado*/
             margin: 11.5rem auto 0;
             position: relative;
+            
         }
         h1{
             margin-top: 1.5rem;
@@ -57,4 +59,66 @@
             display: flex;  /* deixa as coisas uma do lado da outra*/
             gap: .5rem;
             justify-content: center;
+        }
+
+        @media (min-width: 800px) {
+            /* estilos versão desktop */
+            *{
+                margin: 0;    /*global*/
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+            html, body{
+                height: 100%;
+                background-color: #121214;
+                font-family: 'Roboto',  sans-serif;
+                -webkit-font-smoothing: antialiased;   /*webkit é para funcionar tambem em outros browsers*/
+            }
+        
+            body{
+                display: grid;   /*parte em duas caixas*/
+                place-items: center;
+            }
+            main{
+                background:url(images/Desktop.png) no-repeat center/cover;
+                width: 100vw;
+                height: 100vh;
+            }
+            .container {
+                max-width: 250px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                color: hsl(240,9%,89%);
+            }
+            .avatar{
+                width: 160px;
+                height: 190px;
+                top: 25px;
+                object-fit: cover;
+                clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);  /*aquilo que está dentro aparece e oque fica de fora é cortado*/
+                margin: 11.5rem auto 0;
+                position: relative;
+            }
+            h1{
+                margin-top: 1.5rem;
+                font-size: 1.5rem;
+                margin-top: 2rem;
+                color: rgb(165, 165, 177);
+            }
+        
+            p{
+                margin-top: 2rem;
+                color: rgb(165, 165, 177);
+            }
+            ul{
+                margin-top: 3rem;
+                list-style: none;
+                padding: 0;
+                display: flex;  /* deixa as coisas uma do lado da outra*/
+                gap: .5rem;
+                justify-content: center;
+            }
+           
         }
